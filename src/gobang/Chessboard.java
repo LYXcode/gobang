@@ -25,8 +25,9 @@ public void printBoard() {
 	}
 	
 }
-public void setBoard(int posX,int posY,String chessman) {
+public boolean setBoard(int posX,int posY,String chessman) {
 	board[posX][posY]=chessman;
+	return true;
 }
 public String[][] getBoard() {
 	
