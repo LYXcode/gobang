@@ -29,7 +29,7 @@ public static void main(String[] arg) throws IOException {
    chessboard.setBoard(posX, posY, Chessman.WHITE.getChessman());
    chessboard.printBoard();
    judgeman.isWon(posX, posY, chessboard, Chessman.WHITE.getChessman());
-   System.out.print("Please enter number!\n");
+
 	}
 }
 
